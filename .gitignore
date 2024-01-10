@@ -1,0 +1,19 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+terraform.tfstate*
+*.tfplan
+
+# Crash log files
+crash.log
+
+# Exclude sensitive information like .tfvars containing secrets
+*.secret
+*.secrets
+*.pem
+*.key
+
+# Exclude directories
+.terraform/
+.tf/
