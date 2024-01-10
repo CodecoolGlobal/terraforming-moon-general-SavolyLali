@@ -31,3 +31,13 @@ resource "aws_key_pair" "this" {
   key_name = "lali-key"
   public_key = file("~/.ssh/id_ALGORITHM.pub")
 }
+
+resource "aws_instance" "this" {
+  ami           = data.aws_ami.this.id
+  instance_type = "t2.micro"
+  key_name = aws_key_pair.this.key_name
+
+  tags = {
+    Name = "tf-moon-sl"
+  }
+}
