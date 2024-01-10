@@ -26,3 +26,8 @@ data "aws_ami" "this" {
 
   owners = ["099720109477"] # Canonical
 }
+
+resource "aws_key_pair" "this" {
+  key_name = "lali-key"
+  public_key = file("~/.ssh/id_ALGORITHM.pub")
+}
