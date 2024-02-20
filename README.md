@@ -180,7 +180,7 @@ Project Link: [https://github.com/CodecoolGlobal/terraforming-moon-general-Savol
 [issues-shield]: https://img.shields.io/github/issues/CodecoolGlobal/terraforming-moon-general-SavolyLali.svg?style=for-the-badge
 [issues-url]: https://github.com/CodecoolGlobal/terraforming-moon-general-SavolyLali/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/company/codecool-global
+[linkedin-url]: https://www.linkedin.com/in/lajos-daniel-savoly/
 [Terraform.io]: https://www.terraform.io/
 [Terraform-url]: https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white
 [AWS.com]: https://aws.amazon.com/
